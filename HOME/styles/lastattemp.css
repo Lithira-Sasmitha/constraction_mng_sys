@@ -1,0 +1,240 @@
+     
+body {
+    margin: 0;
+    padding: 0;
+    background-color:  rgb(29, 22, 22);
+}
+
+.header {
+    padding: 0 50px;
+    background-color: rgb(80, 54, 54);
+}
+
+.h1 {
+    display: flex;
+    align-items: center;
+}
+
+.h1 img {
+    width: 10%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.company-name {
+    text-align: center;
+    text-decoration: none;
+    font-size: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 0;
+    color: aliceblue;
+    font-style: italic;
+}
+
+.buttons {
+    position: relative;
+    margin-left: auto; /* Adjust to push buttons to the right */
+}
+
+.buttons .btn {
+    padding: 25px;
+    font-size: larger;
+    background-color: rgb(61, 52, 84);
+    color: rgb(246, 218, 218);
+    border-radius: 15%;
+    margin-right: 20px;
+}
+
+.buttons .btn:hover {
+    cursor: pointer;
+    background-color: rgb(168, 168, 189);
+    color: rgb(30, 12, 12);
+    transition: 0.75s;
+}
+
+.container {
+    position: relative; 
+   
+}
+
+
+.nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav-bar li {
+    float: left;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    display: block;
+    border: 2px solid black;
+    padding: 15px 25px;
+    font-size: large;
+    background-color: rgb(29, 18, 29);
+    color: aliceblue;
+}
+
+.nav-bar {
+    position: absolute;
+    right: 0;
+}
+
+.nav-bar li a:hover {
+    color: rgb(13, 16, 18);
+    background-color: rgb(216, 205, 205);
+    transition: 1.5s;
+}
+
+.container-2 {
+    position: relative;
+    margin-top: 50px;
+    background-image: url('images/image1.jpg'); /* Add your background image path */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; /* Cover the entire container */
+    max-width: 100%;
+    height: 400px; /* Adjust height as needed */
+    color: rgba(8, 0, 0, 1); /* Add text color for visibility */
+    text-align: center; /* Center text */
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 200px; /* Adjust vertical positioning of text */
+}
+div .description{
+    padding: 50px;
+    background-color: rgb(29, 17, 17);
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+}
+
+.importance-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    color: black;
+    font-style: italic;
+}
+.importance-container importance-discription{
+    margin-top: 200px;
+    margin-left: 250px;
+    font-size: 25px;
+}
+
+.importance-discription h3{
+    margin-left: 250px;
+    margin-top: 200px;
+    font-size: 30px;
+}
+
+.important-list li{
+    margin-left: 300px;
+    font-size: 30px;
+}
+.important-list ul{
+    margin-top: 200px;
+    
+}
+
+.row {
+    display: flex;
+    justify-content: none;
+    flex-wrap: wrap;
+    background-image: url(images/construction-background-lighter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.column-1{
+   
+    padding: 70px;
+    line-height: 10px;
+
+}
+
+.column-1 h2 {
+    text-align: center;
+    color: #100d0d;
+    opacity: 1;
+    margin-top: 60px;
+    font-size: 50px;
+    font-style: italic;
+}
+.column-1 p {
+    text-align: center;
+    color: #090505de;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.column h3 {
+    text-align: center;
+    color: #161414;
+    margin: 0;
+    font-size: 40px;
+    
+}
+.address {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.address address {
+    margin: 0;
+    font-style: normal;
+    color: #0e0505;
+}
+
+.address-1, .address-2, .address-3{
+    background-color: #e3d1d1;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-style: italic;
+}
+/* footer */
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+    background-color: rgb(32, 29, 2);
+    padding: 50px 10%;
+  }
+.footer-col{
+    width: 30%;
+}
+.footer-col h1{
+    position: relative;
+    margin-bottom: 15px;
+    font-size: 400;
+    font-size: 30px;
+    color: white;
+    text-transform: capitalize;
+    padding-left: 30px;
+ }
+ .footer-col img {
+    width: 300px;
+  }
+  ul.a {
+    list-style-type: circle;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 1.5 ;
+    color:white;
+  }
