@@ -1,0 +1,84 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: rgb(27, 27, 27);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: rgb(250, 234, 203);
+    width: 350px;
+    height: 500px;
+    margin: 25px;
+    margin-top: 70px;
+    border-radius: 15px;
+    box-shadow: -1px 0 10px #aaaaaa;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-image {
+    background-color: rgb(93, 162, 164);
+    height: 200px;
+    margin-bottom: 10px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.pic-1{
+    background-image: url('images/Construct.jpg');
+    
+}
+.pic-2{
+    background-image: url('images/Workers.jpg');
+}
+.pic-3{
+    background-image: url('images/Archi.jpg');
+}
+
+.card h2{
+    padding: 10px;
+}
+
+.card p {
+    padding: 10px;
+}
+
+.card:hover{
+    background-color: rgb(62,62,62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.08);
+    transition:all 0.5s ease;
+}
+
+.card a {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 80px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+    background-color: rgb(188, 178, 69);
+    padding: 50px 10%;
+  }
+
+  

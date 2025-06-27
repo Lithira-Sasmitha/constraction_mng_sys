@@ -1,0 +1,30 @@
+footer{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: auto;
+  background-color: rgb(32, 29, 2);
+  padding: 50px 10%;
+  }
+  .footer-col{
+  width: 30%;
+  }
+  .footer-col h1{
+  position: relative;
+  margin-bottom: 15px;
+  font-size: 400;
+  font-size: 30px;
+  color: white;
+  text-transform: capitalize;
+  padding-left: 30px;
+  }
+  .footer-col img {
+  width: 300px;
+  }
+  ul.a {
+  list-style-type: circle;
+  padding-left: 50px;
+  padding-right: 50px;
+  line-height: 1.5 ;
+  color:white;
+  }
+  

@@ -1,0 +1,44 @@
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    line-height: 1.2;
+  }
+   
+  body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #bbbb;
+  }
+  footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+    background-color: black;
+    padding: 50px 10%;
+  }
+  .footer-col{
+    width: 30%;
+  }
+ .footer-col h1{
+    position: relative;
+    margin-bottom: 15px;
+    font-size: 400;
+    font-size: 30px;
+    color:white;
+    text-transform: capitalize;
+ }
+  img {
+    width: 250px;
+  }
+  ul.a {
+    list-style-type: circle;
+    padding: 6px;
+    line-height:1.2 ;
+    color: white;
+  }
+  
+ 
