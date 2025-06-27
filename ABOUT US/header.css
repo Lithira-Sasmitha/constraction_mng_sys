@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:  white;
+}
+
+.header {
+    padding: 0 50px;
+    background-color: rgb(79, 76, 76);
+}
+
+.h1 {
+    display: flex;
+    align-items: center;
+}
+
+.h1 img {
+    width: 10%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.company-name {
+    text-align: center;
+    text-decoration: none;
+    font-size: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 0;
+    color: aliceblue;
+    font-style: italic;
+}
+
+.buttons {
+    position: relative;
+    margin-left: auto; /* Adjust to push buttons to the right */
+}
+
+.buttons .btn {
+    padding: 25px;
+    font-size: larger;
+    background-color: rgb(61, 52, 84);
+    color: rgb(246, 218, 218);
+    border-radius: 15%;
+    margin-right: 20px;
+}
+
+.buttons .btn:hover {
+    cursor: pointer;
+    background-color: rgb(168, 168, 189);
+    color: rgb(30, 12, 12);
+    transition: 0.75s;
+}
+
+.container {
+    position: relative; 
+   
+}
+
+
+.nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav-bar li {
+    float: left;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    display: block;
+    border: 2px solid black;
+    padding: 15px 25px;
+    font-size: large;
+    background-color: rgb(29, 18, 29);
+    color: aliceblue;
+}
+
+.nav-bar {
+    position: absolute;
+    right: 0;
+}
+
+.nav-bar li a:hover {
+    color: rgb(13, 16, 18);
+    background-color: rgb(216, 205, 205);
+    transition: 1.5s;
+}

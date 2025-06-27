@@ -1,0 +1,26 @@
+/* footer */
+footer {
+background-color: black;
+
+}
+.footer-col{
+    width: 30%;
+    
+  }
+ .footer-col h1{
+    position: relative;
+    margin-bottom: 15px;
+    font-size: 400;
+    font-size: 30px;
+    color: white;
+    text-transform: capitalize;
+ }
+  img {
+    width: 220px;
+  }
+  ul.a {
+    list-style-type: circle;
+    padding: 6px;
+    line-height:1.2 ;
+    color: white;
+  }

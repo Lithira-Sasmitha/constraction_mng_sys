@@ -1,0 +1,132 @@
+
+.containercnct{
+    width:100%;
+    background:white;
+    border-radius:6px;
+    padding: 20px 60px 40px 40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 2);
+}
+
+.containercnct .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.content .right-side .details{
+    margin: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.content .right-side .topic{
+    font-size: 18px;
+    font-weight: 700;
+    color:blue;
+}
+
+.content .right-side i{
+    font-size: 30px;
+    color: blue;
+}
+
+.content .right-side{
+    width: 50%;
+    height: 50%; 
+}
+
+.content .right-side .t1,
+.content .right-side t2{
+    font-size: 14px;
+    color: #afafd6;
+    }
+
+
+.content .left-side{
+    width: 75%;
+    margin-left: 75px;  
+}
+
+.ftopic{
+    font-size: 23px;
+    font-weight: 700;
+    color:blue;
+}
+
+.ibox,textarea{
+    height: 50px;
+    width: 100%;
+    margin: 12px 0;
+}
+
+.ibox input,
+.imbox textarea
+{
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #F0F1F8;
+    border-radius: 6px;
+    padding: 0 15px;
+    resize: none;
+}
+
+.imbox textarea{
+    min-height: 110px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    
+}
+
+.button input{
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+    background: #3e2093;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+.button input:hover{
+    background: #5029bc;
+}
+
+
+td,th{
+    text-align: center;
+}
+
+  footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+    background-color: rgb(188, 178, 69);
+    padding: 50px 10%;
+  }
+  .footer-col{
+    width: 30%;
+  }
+ .footer-col h1{
+    position: relative;
+    margin-bottom: 15px;
+    font-size: 400;
+    font-size: 30px;
+    color: black;
+    text-transform: capitalize;
+ }
+  img {
+    width: 250px;
+  }
+  ul.a {
+    list-style-type: circle;
+    padding: 6px;
+    line-height:1.2 ;
+    color: rgb(0, 0, 0);
+  }

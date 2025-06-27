@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Document</title>
+
+    <link rel="stylesheet" href="myProjectLink.css">
+    
+    
+    
+    
+</head>
+<body>
+    <div class="header">
+        <div class="h1">
+            <img src="../../Images/logo.png" alt="company-logo">
+            <div class="company-name">
+                <h1>SL2MY Construction</h1>
+            </div>
+            <div class="buttons">
+                <a href="../../log/registation.html">
+                <button class="btn" onclick="redirectToLoginPage()">Register</button>
+            </a>
+            <a href="../../log/login.html">
+                <button class="btn" onclick="redirectToLoginPage()">Login</button>
+            </a>
+            </div>
+        </div>
+    </div>
+    
+    
+
+        <div class="nav-bar">
+            <ul class="nav">
+                <li><a href="../../Home/home.html">Home</a></li>
+                <li><a href="../../ABOUT US/AboutUs.html">About us</a></li>
+                <li><a href="../../Project/myProjectLink/myProjectLink.html">Projects</a></li>
+                <li><a href="../../services/productandservice.html">Services</a></li>
+                <li><a href="../../news/news.html">News</a></li>
+                <li><a href="../../contact us/cnctform.html">Contact us</a></li>
+            </ul>
+        </div>
+    
+<div>
+
+    <img src="bg-construction-site2-1.jpg">
+
+    <div class="banner-text">
+      
+        <spam><h1> OUR PROJECTS</h1></spam>
+        <hr color="red" class="h" >
+
+    </div>
+</div>
+<div class="gallery-wrap">
+    <img src="back.png" id="backBtn">
+    <div class="gallery">
+        <div>
+            <span><a href="photo1/background1.html"><img src="background.jpg" width="420px"></a></span>
+            <span><a href="photo2/background2.html"><img src="colombo-kandy road.jpg" width="420px"></a></span>
+            <span><a href="photo3/background3.html"><img src="fairway colombo.jpg" width="420px"></a></span>
+        </div>
+        <div>
+            <span><a href="photo4/background4.html"><img src="iconic galaxy.jpg" width="420px"></a></span>
+            <span><a href="photo5/background5.html"><img src="malapalla housing.jpg" width="420px"></a></span>
+            <span><a href="photo6/background6.html"><img src="railway opeation.jpg" width="420px"></a></span>
+        </div>
+     </div>
+    <img src="next.png" id="nextBtn">
+</div>
+ 
+<script>
+
+    let scrollcontainer = document.querySelector(".gallery");
+    let backBtn = document.getElementById("backBtn");
+    let nextBtn = document.getElementById("nextBtn");
+
+    scrollcontainer.addEventListener("wheel", (evt) => {
+        evt.preventDefault();
+        scrollcontainer.scrollLeft += evt.deltaY;
+    });
+
+    nextBtn.addEventListener("click", ()=>{
+
+        scrollcontainer.style.scrollBehavior = "smooth";
+        scrollcontainer.scrollLeft += 900;
+
+    });
+
+    backBtn.addEventListener("click", ()=>{
+
+    scrollcontainer.style.scrollBehavior = "smooth";
+    scrollcontainer.scrollLeft -= 900;
+
+    });
+
+</script>
+
+
+
+</body>
+</html>

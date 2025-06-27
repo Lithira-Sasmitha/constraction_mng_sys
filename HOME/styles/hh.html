@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body {
+    margin: 0;
+    padding: 0;
+    }
+
+        .header {
+            padding: 0 50px;
+            background-color: rgb(80, 54, 54);
+        }
+
+        .h1 {
+            display: flex;
+            align-items: center;
+        }
+
+        .h1 img {
+            width: 10%;
+            height: auto;
+            margin-right: 10px;
+        }
+
+        .company-name {
+            text-align: center;
+            text-decoration: none;
+            font-size: 2vw;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 0;
+            color: aliceblue;
+            font-style: italic;
+        }
+
+        .buttons {
+            position: relative;
+            margin-left: auto; /* Adjust to push buttons to the right */
+        }
+
+        .buttons .btn {
+            padding: 25px;
+            font-size: larger;
+            background-color: rgb(61, 52, 84);
+            color: rgb(246, 218, 218);
+            border-radius: 15%;
+            margin-right: 20px;
+        }
+
+        .buttons .btn:hover {
+            cursor: pointer;
+            background-color: rgb(168, 168, 189);
+            color: rgb(30, 12, 12);
+            transition: 0.75s;
+        }
+
+       
+
+        .container {
+            position: relative; 
+            background-color: black;
+        }
+
+
+        .nav-bar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .nav-bar li {
+            float: left;
+        }
+
+        .nav-bar li a {
+            text-decoration: none;
+            display: block;
+            border: 2px solid black;
+            padding: 15px 25px;
+            font-size: large;
+            background-color: rgb(29, 18, 29);
+            color: aliceblue;
+        }
+
+        .nav-bar {
+            position: absolute;
+            right: 0;
+        }
+
+        .nav-bar li a:hover {
+            color: rgb(13, 16, 18);
+            background-color: rgb(216, 205, 205);
+            transition: 1.5s;
+        }
+
+
+    </style>
+</head>
+    <body>
+        <script>
+            function redirectToLoginPage() {
+                window.location.href = "login.php"; 
+            }
+        </script>
+        <div class="header">
+            <div class="h1">
+                <img src="images/WhatsApp_Image_2024-04-21_at_09.33.33_d08e2008-removebg-preview (1).png" alt="company-logo">
+                <div class="company-name">
+                    <h1>SL2MY Construction</h1>
+                </div>
+                <div class="buttons">
+                    <a href="C:\xampp\htdocs\final\log\registation.html">
+                    <button class="btn" onclick="redirectToLoginPage()">Register</button>
+                </a>
+                <a href="C:\xampp\htdocs\final\log\login.html">
+                    <button class="btn" onclick="redirectToLoginPage()">Login</button>
+                </a>
+                </div>
+            </div>
+        </div>
+        
+    
+        <div class="container">
+            <div class="nav-bar">
+                <ul class="nav">
+                    <li><a href="C:\xampp\htdocs\SLmy\Home\home.html">Home</a></li>
+                    <li><a href="../ABOUT US/AboutUs.html">About us</a></li>
+                    <li><a href="C:\xampp\htdocs\final\Project\myProjectLink\myProjectLink.html">Projects</a></li>
+                    <li><a href="C:\xampp\htdocs\final\services\productandservice.html">Services</a></li>
+                    <li><a href="C:\xampp\htdocs\final\news\news.html">News</a></li>
+                    <li><a href="../contact us/cnctform.html">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+        
+</body>
+</html>

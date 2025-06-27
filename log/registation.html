@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="C:\Users\lithi\OneDrive\Desktop\SL2MY\images\logo.png">
+   <title>CMS Login - Construction Management System</title>
+
+   <link rel="stylesheet" type="text/css" href="css/registation.css">
+
+</head>
+<body>
+<?php if (!empty($errorMessage)) : ?>
+            <div class="alert alert-warning" role="alert">
+                <?php echo $errorMessage; ?>
+            </div>
+        <?php endif; ?>
+
+        <?php if (!empty($successMessage)) : ?>
+            <div class="alert alert-success" role="alert">
+                <?php echo $successMessage; ?>
+            </div>
+        <?php endif; ?>
+    <section>
+    <div>
+        <div class="registationHeader">
+            <h1>SL2MY</h1>
+            <p>Construction Management System</p>
+        </div>
+        <div class="registation-box">
+            <form action="">
+                <h2>Registation</h2>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="name"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Enter your name</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Enter your email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Create a password</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Confirm a password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">I accept all teams & condition</label>
+                </div>
+                <button type="submit">Register Now</button>
+                <div class="register-link">
+                </div>
+                <div class="register-link">
+                    <p>Already have an account?
+                        <a href="file:///C:/Users/lithi/OneDrive/Desktop/SL2MY/login%20-%20Copy.html">Login now</a>
+                    </p>
+                    </div>
+            </form>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
